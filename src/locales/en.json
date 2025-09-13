@@ -1,0 +1,272 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "download": "Download",
+    "share": "Share",
+    "upload": "Upload",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "back": "Back",
+    "continue": "Continue",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "aboutUs": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "admin": "Admin",
+    "students": "Students",
+    "teachers": "Teachers",
+    "certificates": "Certificates",
+    "achievements": "Achievements",
+    "portfolio": "Portfolio"
+  },
+  "hero": {
+    "title": "EduVault Passport",
+    "subtitle": "Transform UAE Education with Blockchain Technology",
+    "description": "Secure, verifiable, and lifelong digital portfolios for UAE schools. Issue certificates, track achievements, and preserve memories with cutting-edge blockchain technology designed for the UAE education system.",
+    "getStarted": "Get Started Free",
+    "watchDemo": "Watch Demo",
+    "trustedBy": "Trusted by UAE Schools"
+  },
+  "features": {
+    "title": "Revolutionary Features for UAE Education",
+    "subtitle": "Empowering students, teachers, and administrators with cutting-edge blockchain technology",
+    "blockchain": {
+      "title": "Blockchain Security",
+      "description": "Tamper-proof certificates and achievements stored on the blockchain for permanent verification"
+    },
+    "ipfs": {
+      "title": "IPFS Storage",
+      "description": "Decentralized storage for multimedia content, ensuring your memories last forever"
+    },
+    "nft": {
+      "title": "NFT Certificates",
+      "description": "Unique digital certificates that prove authenticity and ownership of achievements"
+    },
+    "verification": {
+      "title": "Instant Verification",
+      "description": "Universities and employers can instantly verify credentials with QR codes and blockchain hashes"
+    },
+    "multimedia": {
+      "title": "Multimedia Vault",
+      "description": "Store photos, videos, and projects from FS1 to graduation and beyond"
+    },
+    "gamification": {
+      "title": "Gamified Learning",
+      "description": "Earn NFT badges for extracurricular activities and special achievements"
+    }
+  },
+  "howItWorks": {
+    "title": "How EduVault Works",
+    "subtitle": "Simple steps to transform your educational journey",
+    "step1": {
+      "title": "Upload & Verify",
+      "description": "Students and teachers upload achievements, certificates, and multimedia content"
+    },
+    "step2": {
+      "title": "Blockchain Storage",
+      "description": "All data is securely stored on IPFS and linked to blockchain for verification"
+    },
+    "step3": {
+      "title": "NFT Creation",
+      "description": "Unique NFT certificates are created for each achievement and milestone"
+    },
+    "step4": {
+      "title": "Share & Verify",
+      "description": "Share credentials with universities and employers for instant verification"
+    }
+  },
+  "userRoles": {
+    "title": "Built for Everyone in UAE Education",
+    "subtitle": "Comprehensive solutions for all stakeholders",
+    "students": {
+      "title": "For Students",
+      "description": "Build your digital portfolio from FS1 to graduation. Track achievements, store memories, and share your journey with universities and employers.",
+      "features": [
+        "Digital Portfolio Building",
+        "Achievement Tracking",
+        "Multimedia Memory Vault",
+        "University Application Support",
+        "Career Portfolio Creation"
+      ]
+    },
+    "teachers": {
+      "title": "For Teachers",
+      "description": "Issue verified certificates, track student progress, and create comprehensive digital records for each student's educational journey.",
+      "features": [
+        "Certificate Issuance",
+        "Student Progress Tracking",
+        "Digital Record Management",
+        "Parent Communication Tools",
+        "Achievement Recognition"
+      ]
+    },
+    "administrators": {
+      "title": "For Administrators",
+      "description": "Manage school-wide digital portfolios, ensure KHDA compliance, and provide comprehensive reporting for educational authorities.",
+      "features": [
+        "School-wide Management",
+        "KHDA Compliance Tools",
+        "Comprehensive Reporting",
+        "Data Analytics Dashboard",
+        "Policy Implementation"
+      ]
+    }
+  },
+  "statistics": {
+    "title": "Transforming UAE Education",
+    "subtitle": "Join the digital revolution in education",
+    "students": {
+      "number": "10,000+",
+      "label": "Students Enrolled"
+    },
+    "schools": {
+      "number": "50+",
+      "label": "UAE Schools"
+    },
+    "certificates": {
+      "number": "100,000+",
+      "label": "Certificates Issued"
+    },
+    "satisfaction": {
+      "number": "98%",
+      "label": "Satisfaction Rate"
+    }
+  },
+  "testimonials": {
+    "title": "What UAE Educators Say",
+    "subtitle": "Real feedback from schools using EduVault Passport",
+    "testimonial1": {
+      "text": "EduVault has revolutionized how we manage student records. The blockchain verification gives parents and universities complete confidence in our certificates.",
+      "author": "Dr. Sarah Al-Rashid",
+      "position": "Principal, Dubai International School",
+      "school": "Dubai International School"
+    },
+    "testimonial2": {
+      "text": "Our students love building their digital portfolios. It's amazing to see their achievements and memories preserved forever on the blockchain.",
+      "author": "Ahmed Hassan",
+      "position": "Technology Coordinator",
+      "school": "Abu Dhabi Private School"
+    },
+    "testimonial3": {
+      "text": "The KHDA compliance features make reporting so much easier. We can generate comprehensive reports with just a few clicks.",
+      "author": "Fatima Al-Zahra",
+      "position": "Academic Director",
+      "school": "Sharjah American School"
+    }
+  },
+  "graduation": {
+    "title": "Lifelong Digital Records from School to Graduation",
+    "subtitle": "From FS1 to Grade 13 and beyond - preserve every achievement, certificate, and memory in your secure digital portfolio",
+    "completeJourney": {
+      "title": "Complete Academic Journey",
+      "description": "Track every milestone from early years through graduation with blockchain-verified records that last a lifetime"
+    },
+    "graduationCertificates": {
+      "title": "Graduation Certificates",
+      "description": "Secure graduation diplomas and certificates that universities and employers can verify instantly"
+    },
+    "achievementPortfolio": {
+      "title": "Achievement Portfolio",
+      "description": "Preserve all achievements, extracurricular activities, and special moments in your permanent digital vault"
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your UAE School?",
+    "subtitle": "Join the digital revolution in education. Start building secure, verifiable digital portfolios today.",
+    "getStarted": "Get Started Free",
+    "scheduleDemo": "Schedule Demo",
+    "contactSales": "Contact Sales"
+  },
+  "footer": {
+    "description": "EduVault Passport - Transforming UAE education with blockchain technology. Secure, verifiable, and lifelong digital portfolios for students, teachers, and schools.",
+    "quickLinks": "Quick Links",
+    "features": "Features",
+    "support": "Support",
+    "legal": "Legal",
+    "contact": "Contact",
+    "address": "Dubai, United Arab Emirates",
+    "phone": "+971 4 XXX XXXX",
+    "email": "info@eduvault.ae",
+    "copyright": "© 2024 EduVault Passport. All rights reserved.",
+    "poweredBy": "Powered by blockchain technology"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your EduVault Passport account",
+      "email": "Email Address",
+      "password": "Password",
+      "rememberMe": "Remember Me",
+      "forgotPassword": "Forgot Password?",
+      "signIn": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join EduVault Passport and start your digital journey",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "role": "Role",
+      "student": "Student",
+      "teacher": "Teacher",
+      "administrator": "Administrator",
+      "agreeTerms": "I agree to the Terms of Service and Privacy Policy",
+      "createAccount": "Create Account",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign In"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "overview": "Overview",
+    "recentActivity": "Recent Activity",
+    "achievements": "Achievements",
+    "certificates": "Certificates",
+    "portfolio": "Portfolio",
+    "statistics": "Statistics"
+  },
+  "profile": {
+    "title": "Profile Settings",
+    "personalInfo": "Personal Information",
+    "academicInfo": "Academic Information",
+    "preferences": "Preferences",
+    "security": "Security",
+    "updateProfile": "Update Profile",
+    "changePassword": "Change Password"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "language": "Language",
+    "theme": "Theme",
+    "saveChanges": "Save Changes"
+  }
+}
