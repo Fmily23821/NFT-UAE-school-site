@@ -5,27 +5,30 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    rollupOptions: {
-      external: (id) => {
-        // Exclude problematic native binaries
-        if (id.includes('@rollup/rollup-linux') || 
-            id.includes('@rollup/rollup-darwin') || 
-            id.includes('@rollup/rollup-win32')) {
-          return true
-        }
-        return false
-      }
-    },
-    // Optimize for Vercel
+    // Use esbuild for faster builds and avoid rollup native issues
+    minify: 'esbuild',
     target: 'esnext',
-    minify: 'terser',
-    sourcemap: false
+    sourcemap: false,
+    rollupOptions: {
+      // Disable rollup native binaries completely
+      external: [],
+      output: {
+        manualChunks: undefined
+      }
+    }
   },
   // Ensure compatibility with Vercel
   define: {
     global: 'globalThis',
   },
+  // Use esbuild for dependency optimization
   optimizeDeps: {
-    exclude: ['@rollup/rollup-linux-x64-gnu']
+    force: true,
+    esbuildOptions: {
+      target: 'esnext'
+    }
+  },
+  esbuild: {
+    target: 'esnext'
   }
 })
